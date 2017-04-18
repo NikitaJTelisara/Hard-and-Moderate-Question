@@ -47,7 +47,7 @@ public class ModerateQuestions {
         System.out.println(res);
     }
 
-    /*17.1 Write a function that adds two numbers. You should not use + or any arithmetic operators. */
+    /*17.1 Write a function that swap two numbers. You should not use + or any arithmetic operators. */
     public static void swap2No(int a, int b) {
         System.out.println("a " + a);
         System.out.println("b " + b);
