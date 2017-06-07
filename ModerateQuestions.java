@@ -73,6 +73,7 @@ public class ModerateQuestions {
 
     public static int[] shufflecardRecur(int[] cards, int i) {
         if(i==0){return cards;}
+        // if(i<0){return cards;}
         shufflecardRecur(cards,i-1);
         int  k = randomswap(0,i);
         int temp = cards[i];
